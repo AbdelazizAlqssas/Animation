@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    position: absolute;
+    animation-name: div_1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+
+}
+img{
+text-align: center;
+width: 120px;
+height: 120px;
+}
+
+@keyframes div_1 {
+    0%{
+        background-color: yellow;
+        left: 0;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: green;
+        left: 1395px;
+    }
+
+}
+/* /////////////////////////////////////////////////////////////////////// */
+
+.div2{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 60px;
+    position: absolute;
+    margin-left: 1200px;
+    animation-name: div_2;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    top: 125px;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes div_2 {
+    0%{
+        background-color: yellow;
+        right: 0;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: green;
+        right: 1395px;
+    }
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+.div3{
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+    border-radius: 60px;
+    position: absolute;
+    top: 250px;
+    animation-name: div_3;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes div_3 {
+    0%{
+        background-color: yellow;
+        left: 0;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: green;
+        left: 1395px;
+    }
+
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.div4{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 60px;
+    position: absolute;
+    margin-left: 1200px;
+    animation-name: div_4;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    top: 375px;
+    animation-delay: 6s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes div_4 {
+    0%{
+        background-color: yellow;
+        right: 0;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: green;
+        right: 1395px;
+    }
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.div5{
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+    border-radius: 60px;
+    position: absolute;
+    top: 500px;
+    animation-name: div_5;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 8s;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes div_5 {
+    0%{
+        background-color: yellow;
+        left: 0;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: green;
+        left: 1395px;
+    }
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.div6{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 60px;
+    position: absolute;
+    margin-left: 1200px;
+    animation-name: div_6;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    top: 625px;
+    animation-delay: 10s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes div_6 {
+    0%{
+        background-color: yellow;
+        right: 0;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: green;
+        right: 1395px;
+    }
+
+}
